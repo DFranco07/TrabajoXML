@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos [
+<!ELEMENT pedidos (pedido)*>
+<!ELEMENT pedido (idMesa , cancion , url)>
+<!ELEMENT idMesa (#PCDATA)>
+<!ELEMENT cancion (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ATTLIST pedido id CDATA #REQUIRED>
+]>
+<pedidos>
+
+</pedidos>
